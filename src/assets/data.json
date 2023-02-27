@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "date": "07/10/2015",
+      "title": "ICFAI Jharkhand",
+      "description": "ICFAI University, Jharkhand, or in its full name Institute of Chartered Financial Analysts of India University, Jharkhand, is a private university located in Ranchi, Jharkhand, India",
+      "url": "https://www.iujharkhand.edu.in/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+    },
+
+    {
+      "date": "11/10/2016",
+      "title": "SWAADHYAY",
+      "description": "SWAADHYAY is a Self-Study Digital Learning Porta",
+      "url": "https://www.iujharkhand.edu.in/swaadhyay.html",
+      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+    },
+    {
+      "date": "15/10/2017",
+      "title": "ICFAI Tripura",
+      "description": "ICFAI University, Tripura is a private university located at Agartala, Tripura, India. It was established in 2004 through an Act of State Legislature",
+      "url": "https://iutripura.edu.in/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+    },
+
+    {
+      "date": "17/10/2018",
+      "title": "ICFAI University",
+      "description": "The Institute of Financial Analysts of India was established in 1984 as a non-profit educational society in Hyderabad, Telangana, India.",
+      "url": "https://www.icfaiuniversity.in/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+    },
+    {
+      "date": "20/10/2019",
+      "title": "PORTFOLIO",
+      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "url": "/",
+      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+    }
+  ]
+}

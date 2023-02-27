@@ -1,0 +1,118 @@
+#home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  > section {
+    width: 100%;
+    &:first-of-type {
+      padding-left: $p;
+
+      > div {
+        border-top: 1px solid $color6_2;
+        height: 100%;
+        padding-top: 6rem;
+        > h1 {
+          font: 900 2rem $text1;
+        }
+        .typewriterpara {
+          padding: 0px 0;
+          height: 30px;
+          letter-spacing: 3px;
+        }
+        > div {
+          display: flex;
+          margin: 1rem 0;
+          width: 70%;
+          gap: 4rem;
+          align-items: center;
+          > a {
+            &:first-of-type {
+              background-color: $color3;
+              color: $color1;
+              padding: 1rem 2rem;
+              border-radius: 5px;
+              transition: all 0.3s;
+              &:hover {
+                background-color: $color3_1;
+              }
+            }
+            &:last-of-type {
+              background-color: $color3;
+              color: $color1;
+              padding: 1rem 2rem;
+              border-radius: 5px;
+              transition: all 0.3s;
+              &:hover {
+                background-color: $color3_1;
+              }
+            }
+          }
+        }
+        aside {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 70%;
+        }
+        article {
+          margin: 2rem;
+          width: 10rem;
+          color: $color5;
+          position: relative;
+          &::after {
+            content: "";
+            background-color: $color4;
+            width: 100%;
+            height: 5rem;
+            position: absolute;
+            border-radius: 50px;
+            top: 20%;
+            left: 20%;
+            z-index: -1;
+          }
+          > p {
+            font: 900 1.5rem $text1;
+          }
+          > span {
+            font: 500 1rem $text2;
+          }
+        }
+        article[data_spacial] {
+          transform: scale(2);
+          width: 16rem;
+        }
+      }
+    }
+    &:last-of-type {
+      border-top: 1px solid $color6_2;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      overflow-x: hidden;
+      &::after {
+        content: " ";
+        width: 33vmax;
+        height: 33vmax;
+        background-color: $color3;
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+      }
+      > img {
+        width: 41vmax;
+        height: 41vmax;
+        object-fit: contain;
+      }
+    }
+  }
+  > svg {
+    position: absolute;
+    font-size: 2rem;
+    color: $color6;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+    animation: alternatesvg 0.7s infinite linear alternate;
+  }
+}
