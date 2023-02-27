@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Bio-Data/static/css/main.d7afeec5.css",
+    "main.js": "/Bio-Data/static/js/main.be2cbcb3.js",
+    "static/js/787.6e381043.chunk.js": "/Bio-Data/static/js/787.6e381043.chunk.js",
+    "static/media/img.png": "/Bio-Data/static/media/img.27f3b121a305b9d19dec.png",
+    "static/media/myimg.jpg": "/Bio-Data/static/media/myimg.f9e4bcad92b8aec43917.jpg",
+    "static/media/vg.png": "/Bio-Data/static/media/vg.bdfa5f7019af540184c0.png",
+    "index.html": "/Bio-Data/index.html",
+    "main.d7afeec5.css.map": "/Bio-Data/static/css/main.d7afeec5.css.map",
+    "main.be2cbcb3.js.map": "/Bio-Data/static/js/main.be2cbcb3.js.map",
+    "787.6e381043.chunk.js.map": "/Bio-Data/static/js/787.6e381043.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7afeec5.css",
+    "static/js/main.be2cbcb3.js"
+  ]
+}
